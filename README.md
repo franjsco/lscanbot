@@ -1,7 +1,8 @@
 # lscanbot
 
-An opensource telegram bot written in Node.js to scan your LAN.
+An opensource telegram bot to find devices on your LAN.
 
+The bot is written in Node.js.
 
 ## Usage
 
