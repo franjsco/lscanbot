@@ -1,0 +1,33 @@
+{
+  "name": "lscanbot",
+  "version": "1.0.0",
+  "description": "A telegram bot to scan your LAN.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/f3sposito/lscanbot.git"
+  },
+  "author": "f3sposito",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/f3sposito/lscanbot/issues"
+  },
+  "homepage": "https://github.com/f3sposito/lscanbot#readme",
+  "dependencies": {
+    "arpscan": "^0.6.0",
+    "bunyan": "^1.8.12",
+    "network-list": "^1.1.5",
+    "sqlite3": "^4.0.2",
+    "telebot": "^1.2.6"
+  },
+  "devDependencies": {
+    "eslint": "^5.6.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  }
+}

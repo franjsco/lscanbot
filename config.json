@@ -1,0 +1,26 @@
+{
+  "app": {
+    "name": "lscanbot",
+    "token": "--- insert your token here ---",
+    "authorizedUsers": [
+      123456
+    ]
+  },
+  "scanner": {
+    "command": "arp-scan",
+    "args": [
+      "-l"
+    ],
+    "interface": "wlan0",
+    "sudo": false
+  },
+  "database": {
+    "filename": "data.db"
+  },
+  "logger": {
+    "errorLogging": {
+      "filename": "error.log",
+      "level": "error"
+    }
+  }
+}
