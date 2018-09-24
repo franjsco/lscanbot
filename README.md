@@ -40,7 +40,7 @@ In order to use this bot is required that the code is hosted on a linux system c
 5. Create new bot with BotFather on Telegram.
 6. Insert your **token** (app.token) into `config.json`.
 7. Insert your **TelegramID** (app.authorizedUsers) into `config.json`.
-8. Insert your **network device** (scanner.interface) int `config.json`.
+8. Insert your **network device** (scanner.interface) into `config.json`.
 8. Start with`npm start`.
 
 
