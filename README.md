@@ -36,7 +36,7 @@ In order to use this bot is required that the code is hosted on a linux system c
 2. Configure arp-scan to use without sudo.
 (`chmod u+s`)
 3. Clone this repository on your system.
-4. Install dependeces with `npm install`.
+4. Install dependecies with `npm install`.
 5. Create new bot with BotFather on Telegram.
 6. Insert your **token** (app.token) into `config.json`.
 7. Insert your **TelegramID** (app.authorizedUsers) into `config.json`.
