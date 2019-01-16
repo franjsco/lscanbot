@@ -7,13 +7,13 @@ function isAuthorizedUser(userId) {
 function templateStart() {
   const msg = `* Welcome to ${appConfig.app.name} 📱📡*\n 
 A bot to find devices on your network. \n
-Made with ❤️ by @f3sposito  `;
+Made with ❤️ by @ovfl0w  `;
   return msg;
 }
 
 function templateUnauthorizedUser() {
   const msg = `Unauthorized user. 🤖  \n
-Clone the repository https://github.com/f3sposito/lscanbot 
+Clone the repository https://github.com/ovfl0w/lscanbot 
 and run the bot on your local network. 😎`;
   return msg;
 }
