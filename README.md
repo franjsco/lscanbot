@@ -49,4 +49,4 @@ In order to use this bot is required that the code is hosted on a linux system c
 GPLv3
 
 ---
-Made with ❤️ by Francesco Esposito ([@ovfl0w](https://github.com/ovfl0w))
+Made with ❤️ by Francesco Esposito ([@f3sposito](https://github.com/f3sposito))
