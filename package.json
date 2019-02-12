@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ovfl0w/lscanbot.git"
+    "url": "git+https://github.com/frab1t/lscanbot.git"
   },
-  "author": "f3sposito",
+  "author": "frab1t",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/ovfl0w/lscanbot/issues"
+    "url": "https://github.com/frab1t/lscanbot/issues"
   },
-  "homepage": "https://github.com/ovfl0w/lscanbot#readme",
+  "homepage": "https://github.com/frab1t/lscanbot#readme",
   "dependencies": {
     "arpscan": "^0.6.0",
     "bunyan": "^1.8.12",
