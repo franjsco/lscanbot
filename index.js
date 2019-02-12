@@ -24,15 +24,8 @@ bot.on('/help', (msg) => {
 bot.on('/scan', (msg) => {
   if (utils.isAuthorizedUser(msg.from.id)) {
     scanner.scanNetwork(msg.from.id)
-      .then(() => {
-        scanner.getDevicesNetwork(msg.from.id)
-          .then((devices) => {
-            bot.sendMessage(msg.from.id, utils.templateDevicesList(devices), { parseMode: 'Markdown' });
-          })
-          .catch((err) => {
-            msg.reply.text('Error, check the error.log');
-            logger.logError(err);
-          });
+      .then((devices) => {
+        bot.sendMessage(msg.from.id, utils.templateDevicesList(devices), { parseMode: 'Markdown' } );
       })
       .catch((err) => {
         msg.reply.text('Error, check the error.log');
@@ -70,8 +63,8 @@ bot.on(/^\/remove (.+)$/, (msg, props) => {
   }
 });
 
-bot.on('/getUID', (msg) => {
-  msg.reply.text(`⚠️ UID: ${msg.from.id}`);
+bot.on('/me', (msg) => {
+  msg.reply.text(`⚠️ My UID: ${msg.from.id}`);
 });
 
 scanner.initScannerDB();
