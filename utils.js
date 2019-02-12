@@ -7,13 +7,13 @@ function isAuthorizedUser(userId) {
 function templateStart() {
   const msg = `* Welcome to ${appConfig.app.name} 📱📡*\n 
 A bot to find devices on your network. \n
-Made with ❤️ by @f3sposito  `;
+Made with ❤️ by @frab1t  `;
   return msg;
 }
 
 function templateUnauthorizedUser() {
   const msg = `Unauthorized user. 🤖  \n
-Clone the repository https://github.com/f3sposito/lscanbot 
+Clone the repository https://github.com/frab1t/lscanbot 
 and run the bot on your local network. 😎`;
   return msg;
 }
@@ -29,6 +29,10 @@ function templateHelp() {
 }
 
 function templateDevicesList(data) {
+  if(data.length === 0) {
+    let devices = '📡  Devices Not Found.  \n\n';
+    return devices;
+  } 
   let devices = '📡  Devices available:  \n\n';
   data.forEach((elem) => {
     devices += `----- \n 📱 * ${elem.device} * \n 👉 _ ${elem.owner} _ \n \n `;
