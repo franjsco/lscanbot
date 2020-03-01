@@ -59,4 +59,4 @@ In order to use this bot is required that the code is hosted on a GNU/Linux syst
 GPLv3
 
 ---
-Made with ❤️ by Francesco Esposito ([@frsposito](https://github.com/frsposito))
+Made with ❤️ by Francesco Esposito ([@franjsco](https://github.com/franjsco))
