@@ -1,5 +1,5 @@
 const TeleBot = require('telebot');
-const appConfig = require('./config.json');
+const appConfig = require('../config.json');
 const scanner = require('./scanner.js');
 const utils = require('./utils.js');
 const logger = require('./logger.js');

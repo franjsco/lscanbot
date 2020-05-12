@@ -1,5 +1,5 @@
 const bunyan = require('bunyan');
-const appConfig = require('./config.json');
+const appConfig = require('../config.json');
 
 const log = bunyan.createLogger({
   name: appConfig.app.name,

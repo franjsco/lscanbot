@@ -1,4 +1,4 @@
-const appConfig = require('./config.json');
+const appConfig = require('../config.json');
 
 function isAuthorizedUser(userId) {
   return appConfig.app.authorizedUsers.includes(userId);

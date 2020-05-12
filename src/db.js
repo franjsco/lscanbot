@@ -1,6 +1,6 @@
 const sqlite3 = require('sqlite3').verbose();
 const fs = require('fs');
-const appConfig = require('./config.json');
+const appConfig = require('../config.json');
 
 function connectDB() {
   const db = new sqlite3.Database('data.db');

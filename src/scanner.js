@@ -1,5 +1,5 @@
 const arpScanner = require('arpscan/promise');
-const appConfig = require('./config.json');
+const appConfig = require('../config.json');
 const db = require('./db');
 
 function scanNetwork(userId) {
